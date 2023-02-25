@@ -22,11 +22,11 @@
 # :books:Cursos em andamento:
 
 - [ ] **Curso Python: módulo 2**
-* Você pode acessar em: [](https://www.youtube.com/watch?v=nJkVHusJp6E&list=PLHz_AreHm4dk_nZHmxxf_J0WRAqy5Czye) (gratuito)
+* Você pode acessar em: [Curso em video](https://www.youtube.com/watch?v=nJkVHusJp6E&list=PLHz_AreHm4dk_nZHmxxf_J0WRAqy5Czye) (gratuito)
 * Minhas anotações do curso: [Anotações]() :purple_square: 
 
 - [ ] **Curso Python: Módulo 3**
-* Você pode acessar em: [](https://www.youtube.com/watch?v=0LB3FSfjvao&list=PLHz_AreHm4dksnH2jVTIVNviIMBVYyFnH) (gratuito)
+* Você pode acessar em: [Curso em video](https://www.youtube.com/watch?v=0LB3FSfjvao&list=PLHz_AreHm4dksnH2jVTIVNviIMBVYyFnH) (gratuito)
 * Minhas anotações do curso: [Anotações]() :purple_square:
 
 - [ ] **JavaScript**
