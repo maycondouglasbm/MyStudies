@@ -1,19 +1,22 @@
-# CURSO --- PYTHON
-
 # Módulo 1
 
 ### Documentação da linguagem
 
-[PYTHON](https://docs.python.org/3/)
+_Clique aqui_ ---> [PYTHON](https://docs.python.org/3/)
 
 ## Primeiros comandos
 
+Primeiros comandos em **Python**:
+
+```
 - print('Olá mundo')
 
 - A = int(input('Digite um número:))
 - B = int(input('Digite outro:))
 - S = A + B
 - print('A soma de A e B é: {}', S)
+
+ ```
 
 ## Tipos primitivos
 
@@ -40,7 +43,7 @@
 - 3ª) *, /, //, %
 - 4ª) +, -
 
-observação:
+   ## observação:
 
 - \n --> quebra linha
 - {:.2f} --> formatar
@@ -51,35 +54,207 @@ observação:
 - import [módulo]
 - from [módulo] import [objeto]
 
-manipulando texto
+
+## _manipulando texto:_
+
+frase = 'curso em video' 
+
+```
+c u r s o  e m  v i d e o
+0 1 2 3 4 5 6 7 8 9 10 11 12 
+
+```
+
+## _Fatiamento:_
+
+- frase[9] --> curso em 
+- frase[9:13] --> vide  (para no 13 mas não lê a 13ª letra, o último valor não entra na contagem)
+
+- frase[9:21:2] --> pula de 2 em 2 --> v d o  p t o
+- frase[:5]  = frase[0:5]
+- frase[9::3] --> pula de 3 em 3 
 
 
+## _Análise:_
 
-Fatiamento
+- len(frase) --> comprimento da frase
+- frase.count('o') --> conta quantas vezes existe o 'o'
+- frase.count('o', 0, 13) --> contagem já com fatiamento
+- frase.find('deo') --> em que momento começou 'deo'
+- frase.find('android') --> retorna o valor -1
+- 'curso' in frase
 
-Análise
+## _Transformação:_
 
-Transformação
 
-Divisão
+- frase.replace('python', 'android') --> troca 
+- frase.upper() --> maiúsculo
+- frase.lower() --> mantem o minúsculo e troca o maiúsculo por minúsculo
+- frase.capitalize() --> todos os caracteres em minusculo e só 1 fica em maiúsculo (o da 1ª palavra da frase)
+- frase.title() --> capitaliza todas as palavras da frase (deixa a primeira letra de todas as palavras em maiúsculo)
+- frase.strip() --> remove os espaços no inicio e fim da frase
+- frase.rstrip() --> lado direito removido (os últimos espaços)
+- frase.lstrip() --> lado esquerdo removido (primeiros espaços)
+
+## _Divisão:_
+
+frase.split() --> feito nos espaços, divide uma string em uma lista
+
+   * ex:
+
+```
+ c u r s o    e m    v i d e o 
+|0 1 2 3 4|  |0 1|  |0 1 2 3 4|
+
+```
+
+
+## _Junção:_
+
+'-'.join(frase) --> junta a frase com traços
+  * ex:
+
+```
+frase = str(input('digite uma frase'))   ---> curso em video python
+'-'.join(frase) ---> curso-em-video-python
+
+print(''' texto ''')
+
+```
 
 ## Condições
 
-## Cores no terminal
+```
+if carro.esquerda():
+  bloco_a_
+else:
+  bloco_b_
 
+````
+
+  * ex:
+
+```
+
+tempo = int(input('Quantos anos tem seu carro?))
+if tempo <= 3:
+  print('carro novo')
+else:
+  print('carro velho')
+
+```
+
+## Cores no terminal
+ANSI
+escape sequence
+\033[m
+
+\003[style, text, back  m
+
+* style
+  * 0  none
+  * 1  blod
+  * 4  underline
+  * 7  negative
+
+* Text
+  * 30 white
+  * 31 red
+  * 32 green
+  * 33 yellow
+  * 34 blue
+  * 35 purple
+  * 36 blue light
+  * 37 NORMAL
+
+* back 
+  * 40
+  * 41 
+  * 42
+  * 43
+  * 44
+  * 45
+  * 46
+  * 47
+
+    * ex.:
+
+```
+Y = int(input('xxx'))
+for i in range(0,11):
+  print(Y, ''X'', i, ''='', Y * i)
+
+```
 
 # Módulo 2
 
 ## Dicas
 
+- concentração;
+- anote tudo;
+- estude em grupo;
+- ensine alguém;
+- prátique muito;
+- não pule exercícios;
+- não copie as respostas;
+- não desista.
+
 ## Condições aninhadas
+
+```
+if carro.esquerda():
+elif carro.direita():
+else:
+
+```
+
+Estrutura condicional **composta:**
+```
+if carro.esquerda():
+   bloco 1 
+elif carro.direita():
+   bloco 2
+elif carro.ré():
+   bloco 3
+else:
+   bloco 4
+
+```
+
+```
+if carro.esquerda():
+   if  
+   elif
+   else:
+elif 
+else:
+
+```
 
 ## Estrutura de repetição FOR
 
-Laços de repetição
+* Laços de repetição
+
+```
+for in ranger(1, 10):
+   passo
+pega
+
+```
+
+```
+for c in ranger(0, 3):
+  if x:
+    pega
+  passo
+  pula
+passo
+pega
+
+```
 
 ## Estrutura de repetição WHILE
 
 
 
-# Módulo 3
+**Módulo 3 em atualização...**
