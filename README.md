@@ -13,11 +13,11 @@
   
 - [x] **Git e GitHub** 
 * Você pode acessar em: [Curso em Vídeo](https://www.youtube.com/watch?v=xEKo29OWILE&list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA) (gratuito)
-* Minhas anotações do curso: [Anotações]() :yellow_square:
+* Minhas anotações do curso: [Anotações](https://github.com/maycondouglasbm/MyStudies/tree/main/Curso-em-video/Git-GitHub) :green_square:
 
 - [x] **Git e GitHub | Rafaella Ballerini** 
 * Você pode acessar em: [RafaBallerinni](https://www.youtube.com/watch?v=UBAX-13g8OM&list=PLhkO7OMKgT_rqwGYldqcFxyN4yjFgmDh8) (gratuito)
-* Minhas anotações do curso: [Anotações]() :yellow_square:
+* Minhas anotações do curso: [Anotações](https://github.com/maycondouglasbm/MyStudies/tree/main/Curso-em-video/Git-GitHub) :green_square:
   
 # :books:Cursos em andamento:
 
