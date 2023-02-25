@@ -9,7 +9,7 @@
   
 - [x] **Curso Python: Módulo 1**
 * Você pode acessar em:[Curso em Vídeo](https://www.youtube.com/watch?v=S9uPNppGsGo&list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6) (gratuito)
-* Minhas anotações do curso: [Anotações]() :yellow_square: 
+* Minhas anotações do curso: [Anotações](https://github.com/maycondouglasbm/MyStudies/blob/main/Curso-em-video/Python/readme.md) :yellow_square: 
   
 - [x] **Git e GitHub** 
 * Você pode acessar em: [Curso em Vídeo](https://www.youtube.com/watch?v=xEKo29OWILE&list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA) (gratuito)
