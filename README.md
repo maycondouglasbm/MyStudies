@@ -9,7 +9,7 @@
   
 - [x] **Curso Python: Módulo 1**
 * Você pode acessar em:[Curso em Vídeo](https://www.youtube.com/watch?v=S9uPNppGsGo&list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6) (gratuito)
-* Minhas anotações do curso: [Anotações](https://github.com/maycondouglasbm/MyStudies/blob/main/Curso-em-video/Python/readme.md) :yellow_square: 
+* Minhas anotações do curso: [Anotações](https://github.com/maycondouglasbm/MyStudies/blob/main/Curso-em-video/Python/readme.md) :green_square: 
   
 - [x] **Git e GitHub** 
 * Você pode acessar em: [Curso em Vídeo](https://www.youtube.com/watch?v=xEKo29OWILE&list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA) (gratuito)
@@ -80,5 +80,5 @@
 
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/124575968/221172659-afb99eb5-05e6-41af-9212-78c495fd4a86.png" widht"400px" />
+  <img src="https://user-images.githubusercontent.com/124575968/221172659-afb99eb5-05e6-41af-9212-78c495fd4a86.png" widht"300px" />
 </div>
