@@ -90,6 +90,25 @@ elif ano >19 and ano <=20:
 elif ano >20 :
     print('categoria master')
 
+#42º exercício
+
+print('-=-' * 20)
+print("analisador de triangulos")
+print('-=-' * 20)
+r1 = float(input('Primeiro segmento:'))
+r2 = float(input('Segundo segmento:'))
+r3 = float(input('Terceiro segmento:'))
+if r1 < r2 + r3 and r2 < r1 + r3 and r3 < r1 + r2:
+    print('Podem formar triangulos')
+    if r1 == r2 == r3:
+      print('Todos os lados são iguais, EQUIÁTERO')
+    elif r1 == r2 != r3 or r1 == r3 != r2 or r2 == r3 != r1:
+      print('Dois lados são iguais, ISOSCELES')
+    else:
+      print('Todos os lados diferentes, ESCALENO')
+else:
+    print('Não podem formar triângulos')
+
 #43º exercício
 
 peso = float(input('Qual o peso?'))
@@ -142,4 +161,51 @@ else:
 print('-=' * 20)
 
 
-# exercício 42 e 45 não fiz
+#45º exercício:  desenvolver um programa que jogue pedra, papel e tesoura com você
+
+from random import randint
+from time import sleep
+
+itens = ('Pedra', 'Papel', 'Tesoura')
+computador = randint(0, 2)
+
+print('''Escolha a sua opção:
+[ 0 ] Pedra
+[ 1 ] Papel 
+[ 2 ] Tesoura''')
+jogador = int(input('Qual a sua jogada?'))
+print('Joken')
+sleep(1)
+print('POOO')
+sleep(1)
+print('<>' * 20)
+print('o computador escolheu {}'.format(itens[computador]))
+print('O jogador escolheu {}'.format(itens[jogador]))
+print('<>' * 20)
+if computador == 0:
+    if jogador == 0:
+        print('EMPATE')
+    elif jogador == 1:
+        print('\033[0;30;44mJogador ganhou\033[m')
+    elif jogador == 2:
+        print('\033[0;31mComputador ganhou\033[m')
+    else:
+        print('JOGADA INVALIDA')
+elif computador == 1:
+    if jogador == 0:
+        print('\003[0;31mComputador ganhou\033[m')
+    elif jogador == 1:
+        print('EMPATE')
+    elif jogador == 2:
+        print('\033[0;30;44mJogador ganhou\033[m')
+    else:
+        print('jogada invalida')
+elif computador == 2:
+    if jogador == 0:
+        print('\033[0;30;44mJogador ganhou\033[m')
+    elif jogador == 1:
+        print('\033[0;31mComputador ganhou\033[m')
+    elif jogador == 2:
+        print('EMPATE')
+    else:
+        print('Jogada invalida')
