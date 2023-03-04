@@ -180,9 +180,7 @@ escape sequence
     * ex.:
 
 ```
-Y = int(input('xxx'))
-for i in range(0,11):
-  print(Y, ''X'', i, ''='', Y * i)
+print("\033[0;30;40mComputador bom\0333[m]])
 
 ```
 
@@ -255,6 +253,32 @@ pega
 
 ## Estrutura de repetição WHILE
 
+```
+while not y:
+  if bloco:
+    passo
+  if buraco:
+    pula
+  if moeda:
+    pega
+  pega
+```
 
+## Interropendo repetições WHILE
+
+```
+while true:
+   if bloco:
+      passo
+   if buraco:
+      pula
+   if moeda:
+      pega
+   if buraco:
+      pula
+      break
+pega
+
+```
 
 **Módulo 3 em atualização...**
