@@ -10,6 +10,7 @@ São passos a serem seguidos por um módulo processador e seus respectivos usuá
 
 VISUALG --> ferramenta utilizada durante o curso
 
+```
 algoritmo "nome"
 var
    idetificador: tipo
@@ -17,18 +18,21 @@ inicio
      nome <- "maycon"
      escreva ('muito prazer', noome)
 fimalgoritmo
-
+```
 
 comados de saída:
 
-escreva('msg')
-escreva(msg)
-escreva('mensagem', msg)
+escreva('msg');
+
+escreva(msg);
+
+escreva('mensagem', msg);
 
 
 * variáveis: espaço na memória que vão guardar valores
 
 * identificadores:
+
 - deve começar com uma letra;
 - os próximos podem ser letras ou números;
 - não pode utilizar nenhum símbolo, exceto _
@@ -42,10 +46,13 @@ algoritmo[x];              inicio_algoritmo;
 
 * tipos primitivos
 
-interio --> 1, 3, -5, 198
-real --> 0.6, 5.0, -77.3
-caractere --> '123', 'maycon', 'algoritmo'
-logico --> verdadeiro ou falso
+interio --> 1, 3, -5, 198;
+
+real --> 0.6, 5.0, -77.3;
+
+caractere --> '123', 'maycon', 'algoritmo';
+
+logico --> verdadeiro ou falso;
 
 * atribuições
 
@@ -53,6 +60,7 @@ msg <- "olá mundo!"
 
 * Comando de entrada
 
+```
 algoritmo "meu nome"
 var
    nome:caractere
@@ -61,8 +69,9 @@ inicio
    leia(nome)
    escreva ('muito prazer', nome)
 fimalgoritmo
+```
 
-
+```
 algoritmo "valores"
 var  
    n1, n2, s: inteiro
@@ -74,32 +83,52 @@ inicio
    s <- n1 + n2
    escreva('a soma é', s)
 fimalgoritmo
+```
 
-* Operadores aritméticos
 
- + adição
- - subtração
- * multiplição
- / divisão
- \ divisão
- ^ exponenciação
- % módulo
+* Operadores aritméticos:
+
+\+ adição;
+
+\- subtração;
+
+\* multiplição;
+
+/ divisão;
+
+\ divisão;
+
+^ exponenciação;
+
+% módulo;
 
 * Ordem de precendência
 
-() parenteses
-^ exponenciação
-* / multiplicação e divisão
-+ - adição e subtração
+() parenteses;
+
+^ exponenciação;
+
+\* / multiplicação e divisão;
+
+\+ - adição e subtração;
+
 
 * funções aritméticas
 
-abs (valor absoluto)
-exp (exponenciação)
-int (valor inteiro)
-raizQ (raiz quadrada)
-pi (retorna pi)
-sen (seno(rad))
-cos (cosseno(rad))
-tan (tangente(rad))
-graupad (graus para rad)
+ abs (valor absoluto);
+ 
+ exp (exponenciação);
+ 
+ int (valor inteiro);
+ 
+ raizQ (raiz quadrada);
+ 
+ pi (retorna pi);
+ 
+ sen (seno(rad));
+ 
+ cos (cosseno(rad));
+ 
+ tan (tangente(rad));
+ 
+ graupad (graus para rad);
