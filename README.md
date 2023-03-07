@@ -5,11 +5,7 @@
 - [x] **Curso de lógica e algoritmos**
   
 * Você pode acessar em: [Curso em Vídeo](https://www.youtube.com/watch?v=8mei6uVttho&list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV) (gratuito)
-* Minhas anotações do curso: [Anotações]() :yellow_square: 
-  
-- [x] **Curso Python: Módulo 1**
-* Você pode acessar em:[Curso em Vídeo](https://www.youtube.com/watch?v=S9uPNppGsGo&list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6) (gratuito)
-* Minhas anotações do curso: [Anotações](https://github.com/maycondouglasbm/MyStudies/blob/main/Curso-em-video/Python/readme.md) :green_square: 
+* Minhas anotações do curso: [Anotações](https://github.com/maycondouglasbm/MyStudies/blob/main/Curso-em-video/algoritmos/alg.md) :green_square: 
   
 - [x] **Git e GitHub** 
 * Você pode acessar em: [Curso em Vídeo](https://www.youtube.com/watch?v=xEKo29OWILE&list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA) (gratuito)
@@ -19,11 +15,17 @@
 * Você pode acessar em: [RafaBallerinni](https://www.youtube.com/watch?v=UBAX-13g8OM&list=PLhkO7OMKgT_rqwGYldqcFxyN4yjFgmDh8) (gratuito)
 * Minhas anotações do curso: [Anotações](https://github.com/maycondouglasbm/MyStudies/tree/main/Curso-em-video/Git-GitHub) :green_square:
   
-# :books:Cursos em andamento:
+- [x] **Curso Python: Módulo 1**
+* Você pode acessar em:[Curso em Vídeo](https://www.youtube.com/watch?v=S9uPNppGsGo&list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6) (gratuito)
+* Minhas anotações do curso: [Anotações](https://github.com/maycondouglasbm/MyStudies/blob/main/Curso-em-video/Python/readme.md) :green_square: 
+  
 
-- [ ] **Curso Python: módulo 2**
+- [x] **Curso Python: módulo 2**
 * Você pode acessar em: [Curso em video](https://www.youtube.com/watch?v=nJkVHusJp6E&list=PLHz_AreHm4dk_nZHmxxf_J0WRAqy5Czye) (gratuito)
-* Minhas anotações do curso: [Anotações]() :purple_square: 
+* Minhas anotações do curso: [Anotações](https://github.com/maycondouglasbm/MyStudies/blob/main/Curso-em-video/Python/readme.md) :green_square: 
+
+
+# :books:Cursos em andamento:
 
 - [ ] **Curso Python: Módulo 3**
 * Você pode acessar em: [Curso em video](https://www.youtube.com/watch?v=0LB3FSfjvao&list=PLHz_AreHm4dksnH2jVTIVNviIMBVYyFnH) (gratuito)
