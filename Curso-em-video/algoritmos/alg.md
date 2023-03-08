@@ -132,3 +132,49 @@ fimalgoritmo
  tan (tangente(rad));
  
  graupad (graus para rad);
+
+ * Operadores lógicos e relacionais
+
+Operadores relacionais
+```
+ > maior que
+ < menor que
+ >= maior ou igual a 
+ <= menor ou igual a 
+ = igual a 
+ <> diferende de
+```
+ Operadores lógicos:     
+
+ P |  q | p e q
+:---: |---: | ---:
+ v | v | v
+ v | v | f
+ f | v | f
+ f | f | f
+
+ p | q | p ou q
+:---: |--: | ---: 
+ v | v | v 
+ v | f |v
+ f | v | v
+ f | f | f
+
+ p | não p
+:---: | --: 
+ f | v
+
+Ordem de preocendência geral
+
+aritméticos :
+:---: | :--
+() ; ^ ; */ ; +-
+
+relacionais:
+
+todos
+
+Lógicos:
+
+e; ou; não 
+
