@@ -19,10 +19,14 @@
 * Você pode acessar em:[Curso em Vídeo](https://www.youtube.com/watch?v=S9uPNppGsGo&list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6) (gratuito)
 * Minhas anotações do curso: [Anotações](https://github.com/maycondouglasbm/MyStudies/blob/main/Curso-em-video/Python/readme.md) :green_square: 
   
-
 - [x] **Curso Python: módulo 2**
 * Você pode acessar em: [Curso em video](https://www.youtube.com/watch?v=nJkVHusJp6E&list=PLHz_AreHm4dk_nZHmxxf_J0WRAqy5Czye) (gratuito)
 * Minhas anotações do curso: [Anotações](https://github.com/maycondouglasbm/MyStudies/blob/main/Curso-em-video/Python/readme.md) :green_square: 
+
+
+- [x] **HTML5 e CSS3: módulo 1**
+* Você pode acessar em: [Curso em Vídeo](https://www.youtube.com/watch?v=Ejkb_YpuHWs&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n) (gratuito)
+* Minhas anotações do curso: [Anotações]() :yellow_square:
 
 
 # :books:Cursos em andamento:
@@ -33,10 +37,6 @@
 
 - [ ] **JavaScript**
 * Você pode acessar em: [Curso em Vídeo](https://www.youtube.com/watch?v=1-w1RfGIov4&list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1) (gratuito)
-* Minhas anotações do curso: [Anotações]() :purple_square:
-
-- [ ] **HTML5 e CSS3: módulo 1**
-* Você pode acessar em: [Curso em Vídeo](https://www.youtube.com/watch?v=Ejkb_YpuHWs&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n) (gratuito)
 * Minhas anotações do curso: [Anotações]() :purple_square:
 
 - [ ] **HTML5 e CSS3: módulo 2**
