@@ -1,98 +1,113 @@
-#12º exercício
+#6º exercício
 
-preço = float(input('Qual o preço do produto?'))
-nov = preço - (preço * 5 / 100)
-print("Esse preço com - 5% de desconto fica R${:.2f},".format(nov))
+num = int(input('Digite um número para ver seu sucessor e antecessor:'))
+s = num + 1
+a = num - 1
+print('O sucessor de {} é {} e o antecessor de {} é {}.' .format(num, s, num, a))
 
-#13º exercício
+#7º exercício
 
-salário = float(input('Qual o seu salário?'))
-nv = salário + (salário * 15 / 100)
-print('O salário R${} com 15% de aumento é igual a R${:.2f}'.format(salário, nv))
+Y = int(input('Digite um número para ver seu dobro, triplo e raiz:'))
+D = Y * 2
+T = Y * 3
+R = Y ** (1/2)
+print('O dobro de {} é igual a {:.2f},\nO triplo de {} é igual a {:.2f}, \nE a raiz quadrada de {} é igual a {:.0f}.'.format(Y, D, Y, T, Y, R))
 
-#14º exercício
+#8º exercício
 
-temp = int(input("A temperatura em °c:"))
-f = temp * 9 / 5 + 32
-print('A temperatura {}°c é igual a {}°f'.format(temp, f))
+nota1 = int(input('Primeira nota:'))
+nota2 = int(input('Segunda nota:'))
+média = (nota1 + nota2) / 2
+print('A média do aluno(a) é: {}' .format(média))
 
-#15º exercício
+print('Outro método para ver se foi aprovado ou reprovado')
 
-km = float(input('Qual a quantidade de quilometros pecorridos?'))
-dias = int(input('Qual a quantidade de dias que foi alugado?'))
-preço = (dias * 60) + (km * 0.15)
-print('O total que ele terá a pagar po ter pecorrido {}km em {} dias será de R${:.2f}'.format(km, dias, preço))
+print('1° bimestre:')
+nota1 = float(input('Primeira nota:'))
+nota2 = float(input('Segunda nota:'))
+média1 = (nota1 + nota2) / 2
+print("A média do aluno(a) é: {}".format(média1))
 
-#16º exercício
+print('-----------------------------------------------------------------------')
 
-from math import trunc
-num = float(input('Digite um número:'))
-print('O número digitado foi {} e sua parte inteira é {}'.format(num, trunc(num)))
+print('2° bimestre:')
+nota1 = float (input('Primeira nota:'))
+nota2 = float (input('Segunda nota:'))
+média2 = (nota1 + nota2) / 2
+print('A média do aluno(a) é: {}' .format(média2))
 
-# outra forma sem importar o módulo
+print('-----------------------------------------------------------------------')
 
-num = float(input('Digite um número:'))
-print('O número digitado foi {} e sua parte inteira é {}'.format(num, int(num)))
+print('3° bimestre:')
+nota1 = float(input('Primeira nota:'))
+nota2 = float(input('Segunda nota:'))
+média3: float = (nota1 + nota2) / 2
+print('A média do aluno(a) é: {}' .format(média3))
 
-#17º exercício
+print('-----------------------------------------------------------------------')
 
-CO = float(input('O tamanho do cateto oposto:'))
-CA = float(input('O tamanho do cateto adjacente:'))
-hipotenusa = (CO ** 2 + CA ** 2) ** (1/2)
-print('O comprimento da hipotenusa é o quadrado do primeiro que equivale a {} mais o quadrado do segundo que equivale a {}'
-      '\nque é igual a hipotenusa que vale {:.2f}'.format(CO, CA, hipotenusa))
+print('4° bimestre:')
+nota1 = float (input('Primeira nota:'))
+nota2 = float (input('Segunda nota:'))
+média4 = (nota1 + nota2) / 2
+print('A média do aluno(a) é: {}' .format(média4))
 
-#18º exercício
+print('-----------------------------------------------------------------------')
+print('Olhe se você foi aprovado ou reprovado:')
+print('-----------------------------------------------------------------------')
 
-import math
-num = float(input('Digite um número para ver seu seno, cos e tangente:'))
-seno = math.sin(math.radians(num))
-print("O ângulo {} convertido para seno é {:.2f}".format(num, seno))
-cos = math.cos(math.radians(num))
-print("O ângulo {} convertido para cosseno é {:.2f}".format(num, cos))
-tang = math.tan(math.radians(num))
-print("O ângulo {} convertido para tangente é {:.2f}".format(num, tang))
+m1 = (média1 + média2 + média3 + média4)
+print('A média total do aluno nos 4 bimestres é: {}'.format(m1))
+if m1 >= 28:
+    print('Parabéns, você foi aprovado!')
+else:
+    print('Reprovado...')
 
+medida = float(input('Qual a medida em metros?'))
+c = medida * 100
+m = medida * 1000
+print(' A medida {} em centimetros é {:.0f}cm e em milimetros é {:.0f}mm'.format(medida, c, m))
 
-print('---------------------------------------------------------------------')
+#9º exercício
 
-from math import radians, sin, cos, tan
-num = float(input('Digite um número para ver seu seno, cos e tangente:'))
-seno = sin(radians(num))
-print("O ângulo {} convertido para seno é {:.2f}".format(num, seno))
-cos = cos(radians(num))
-print("O ângulo {} convertido para cosseno é {:.2f}".format(num, cos))
-tang = tan(radians(num))
-print("O ângulo {} convertido para tangente é {:.2f}".format(num, tang))
+num = int (input("Digite um número para ver a tabuada:"))
+for i in range(0, 11):
+    print(num, "x", i, "=", num * i)
 
-#19º exercício
+# aaaaa
 
-import random
+print('------------')
 
-n1 = str(input('Primeiro nome:'))
-n2 = str(input('Segundo nome:'))
-n3 = str(input('Terceiro nome:'))
-n4 = str(input('Quarto nome:'))
-Lista = [n1, n2, n3, n4]
-escolhido = random.choice(Lista)
-print('O escolhido foi: {}'.format(escolhido))
+num1 = int(input('Digite um número:'))
+print('{} * 1 = {}'.format(num1, num1 * 1)),
+print('{} * 2 = {}'.format(num1, num1 * 2)),
+print('{} * 3 = {}'.format(num1, num1 * 3)),
+print('{} * 4 = {}'.format(num1, num1 * 4)),
+print('{} * 5 = {}'.format(num1, num1 * 5)),
+print('{} * 6 = {}'.format(num1, num1 * 6)),
+print('{} * 7 = {}'.format(num1, num1 * 7)),
+print('{} * 8 = {}'.format(num1, num1 * 8)),
+print('{} * 9 = {}'.format(num1, num1 * 9)),
+print('{} * 10 = {}'.format(num1, num1 * 10)),
 
-#20º exercício
+#10º exercício
 
-import random
-n1 = str(input('Primeiro nome:'))
-n2 = str(input('Segundo nome:'))
-n3 = str(input('Terceiro nome:'))
-n4 = str(input('Quarto nome:'))
-Lista = [n1, n2, n3, n4]
-random.shuffle(Lista)
-print('A ordem sorteada foi:')
-print(Lista)
+num = float(input('Quanto dinheiro em R$ você tem:'))
+s = num / 5.15
+print('Com R${} você poderá comprar U${:.2f}'.format(num, s))
 
-#21º exercício
+# com o dolar valendo R$ 3,21
+print('----------------------------------------------------------')
 
-#import pygame
-#pygame.init()
-#pygame.mixer.music.load('ex020.mp3')
-#pygame.mixer.music.play()
-#pygame.event.wait()
+real = float(input('Quantos R$ você poderá compra dolares:'))
+t = num / 3.21
+print("Com R${} você pode comprar U${:.2f}".format(real, t))
+
+#11º exercício
+
+alt = float(input('Qual a altura?'))
+larg = int(input('Qual a largura?'))
+área = alt * larg
+print('A área total é de {:.0f} metros'.format(área))
+tinta = área / 2
+print('A quantidade de tinta necessária para tintá-la é de {}l'.format(tinta))
